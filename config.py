@@ -9,7 +9,7 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 # SEC requires a real name + contact email in User-Agent.
-SEC_USER_AGENT = "YourName your@email.com"
+SEC_USER_AGENT = "Dennis Joseph denjo2@gmail.com"
 SEC_HEADERS = {"User-Agent": SEC_USER_AGENT}
 
 # SEC rate limit is 10 req/sec. 0.15 s between calls keeps us well under.
