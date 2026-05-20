@@ -13,7 +13,7 @@ SEC_USER_AGENT = "Dennis Joseph denjo2@gmail.com"
 SEC_HEADERS = {"User-Agent": SEC_USER_AGENT}
 
 # SEC rate limit is 10 req/sec. 0.15 s between calls keeps us well under.
-SEC_RATE_DELAY_SECONDS = 0.15
+SEC_RATE_DELAY_SECONDS = 0.5
 
 SEC_API_TIMEOUT_DEFAULT = 30  # seconds
 SEC_API_TIMEOUT_FILING = 60   # 10-K HTML can be large
